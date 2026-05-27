@@ -40,11 +40,11 @@ export const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <button 
             onClick={() => {window.location.href = "/chat";}}
-            className="flex items-center justify-center gap-2 bg-brand-burgundy text-white px-8 py-4 rounded-xl font-semibold hover:scale-105 active:scale-95 transition-all shadow-xl">
+            className="flex items-center cursor-pointer justify-center gap-2 bg-brand-burgundy text-white px-8 py-4 rounded-xl font-semibold hover:scale-105 active:scale-95 transition-all shadow-xl">
               <MessageSquare className="w-5 h-5" />
               Chat now
             </button>
-            <button className="flex items-center justify-center gap-2 bg-white/80 backdrop-blur-sm text-brand-burgundy border-2 border-brand-gold/30 px-8 py-4 rounded-xl font-semibold hover:border-brand-gold transition-all">
+            <button className="flex items-center cursor-pointer justify-center gap-2 bg-white/80 backdrop-blur-sm text-brand-burgundy border-2 border-brand-gold/30 px-8 py-4 rounded-xl font-semibold hover:border-brand-gold transition-all">
               <Map className="w-5 h-5 text-brand-gold" />
               Explore Map
             </button>
